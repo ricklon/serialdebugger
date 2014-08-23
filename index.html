@@ -1,0 +1,25 @@
+<html>
+<head>
+  <script src="serialport.js"></script>
+  <script src="main.js"></script>
+  <style type="text/css">
+  body{
+    -webkit-user-select: all;
+  }
+  /*#serialselect{
+    -webkit-user-select: all;
+  }*/
+
+  </style>
+</head>
+<body>
+  <h2>Serial Debugger</h2><br><br>
+  <br><br>
+  <span id="serialselect"></span><br>
+  <span id="connectoutput"></span>
+  <br><br>
+  <textarea id="inputText">[32, 108, 1, 1, 13]</textarea><br>
+  <button id="sendBtn">send</button><br><br><br>
+  Enable <a href="chrome://flags/#debug-packed-apps">chrome://flags/#debug-packed-apps</a> so you can see output from serial port chrome dev tools.
+</body>
+</html>
